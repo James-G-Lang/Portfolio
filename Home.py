@@ -25,7 +25,7 @@ local_css("style/style.css")
 
 ## ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_m4wmgweb.json")
-img_head_shot = Image.open("images/Head Shot.jpg")
+img_head_shot = Image.open("images/headshot.png")
 
 ## ---- HEADER SECTION ----
 with st.container():
@@ -70,6 +70,7 @@ with st.container():
             been on the market for longer than the median days on market for the surrounding properties
             """
         )
+        st.write("[Check it out here!](https://public.tableau.com/app/profile/cse6242team156/viz/CSE6242_DVA_TEAM_156_Project_Dashboard/FinalDashboard)")
 
 ## ---- CONTACT ----
 with st.container():
